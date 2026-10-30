@@ -114,11 +114,6 @@ function resample(values) {
     lastU = u;
     newPoints.push(newPoint);
   }
-  console.log("lastu", lastU);
-  console.log(newPoints[0]);
-  console.log(newPoints[newPoints.length-1]);
-  console.log(values[0]);
-  console.log(values[values.length-1]);
   return newPoints;
 }
 
